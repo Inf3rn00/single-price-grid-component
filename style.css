@@ -25,6 +25,7 @@ body {
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
   box-shadow: 5px 5px 10px hsl(203, 42%, 83%);
+  height: 500px;
 }
 
 .top-grid {
@@ -114,7 +115,7 @@ body {
 
   .left-grid {
     grid-column: span 2;
-    border-radius: 0px;
+    border-radius: 0px 0px 0px 0px;
     width: 100%;
     grid-row: 2;
   }
